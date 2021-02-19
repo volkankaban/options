@@ -1,0 +1,28 @@
+{
+    "name": "volkan/options",
+    "description": "This package allows you to set options table for Laravel projects.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Volkan Kaban",
+            "email": "volkankaban@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Volkan\\Options\\": "src/"
+        }
+    },
+     "extra": {
+        "laravel": {
+            "providers": [
+                "Volkan\\Options\\OptionsServiceProvider"
+            ],
+             "aliases": {
+                "Options": "Volkan\\Options\\Facade"
+            }
+        }
+    }
+}
