@@ -12,16 +12,16 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Volkan\\Options\\": "src/"
+            "Volkankaban\\Options\\": "src/"
         }
     },
      "extra": {
         "laravel": {
             "providers": [
-                "Volkan\\Options\\OptionsServiceProvider"
+                "Volkankaban\\Options\\OptionsServiceProvider"
             ],
              "aliases": {
-                "Options": "Volkan\\Options\\Facade"
+                "Options": "Volkankaban\\Options\\Facade"
             }
         }
     }
