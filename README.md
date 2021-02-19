@@ -11,5 +11,5 @@ This package allows you to set options table for Laravel projects.
 `Options::delete_option( $option_name )`
 
 # How to install:
-`composer require volkan/options`
+`composer require volkankaban/options`
 `php artisan migrate`
