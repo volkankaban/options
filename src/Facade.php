@@ -1,6 +1,6 @@
 <?php 
 
-namespace Volkan\Options;
+namespace Volkankaban\Options;
 
 class Facade extends \Illuminate\Support\Facades\Facade
 {
