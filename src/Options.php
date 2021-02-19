@@ -1,6 +1,6 @@
 <?php
 
-namespace Volkan\Options;
+namespace Volkankaban\Options;
 
 use Illuminate\Database\Eloquent\Model;
 
